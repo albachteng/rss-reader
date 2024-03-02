@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next";
-import { ReaderProps } from "../../types/ReaderProps";
-import { ReaderLayout } from "../../layouts/reader/ReaderLayout";
-import { getRSSFeeds } from "../../db/getRSSFeeds";
+import { ReaderProps } from "@/types/ReaderProps";
+import { ReaderLayout } from "@/layouts/reader/ReaderLayout";
+import { getRSSFeeds } from "@/db/getRSSFeeds";
 
 export const getStaticProps: GetStaticProps<ReaderProps> = async () => {
   const feeds = await getRSSFeeds();
