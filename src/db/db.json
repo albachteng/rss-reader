@@ -4,6 +4,66 @@
       "id": 1,
       "url": "https://nullprogram.com/feed/",
       "name": "nullprogram"
+    },
+    {
+      "id": 2,
+      "url": "https://overreacted.io/rss.xml",
+      "name": "overreacted"
+    },
+    {
+      "id": 3,
+      "url": "https://dave.cheney.net/rss.xml",
+      "name": "dave cheney"
+    },
+    {
+      "id": 4,
+      "url": "https://ujjwalkarn.me/rss.xml",
+      "name": "the data science blog"
+    },
+    {
+      "id": 5,
+      "url": "https://kentcdodds.com/blog/rss.xml",
+      "name": "kent c dodds"
+    },
+    {
+      "id": 6,
+      "url": "https://pomb.us/rss.xml",
+      "name": "rodrigo pombo"
+    },
+    {
+      "id": 7,
+      "url": "https://feeds2.feedburner.com/webdesignerdepot?format=html",
+      "name": "web design depot"
+    },
+    {
+      "id": 8,
+      "url": "https://blog.merovius.de/atom.xml",
+      "name": "Mero's blog"
+    },
+    {
+      "id": 9,
+      "url": "https://changelog.com/master/feed",
+      "name": "changelog"
+    },
+    {
+      "id": 10,
+      "url": "https://hackernoon.com/tagged/coding/feed",
+      "name": "hackernoon"
+    },
+    {
+      "id": 11,
+      "url": "https://github.blog/engineering.atom",
+      "name": "github engineering"
+    },
+    {
+      "id": 12,
+      "url": "https://engineering.fb.com/feed/",
+      "name": "facebook engineering"
+    },
+    {
+      "id": 13,
+      "url": "https://netflixtechblog.com/feed",
+      "name": "netflix tech"
     }
   ]
 }

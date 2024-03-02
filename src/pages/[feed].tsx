@@ -1,11 +1,11 @@
 import { GetStaticProps, GetStaticPaths } from "next";
 import Parser from "rss-parser";
-// import { FeedPageProps, FeedPageQuery, Feed } from "../../types";
 import { RSSFeed } from "@/types/RSSFeed";
 import { FeedLayout } from "@/layouts/feed/Feed";
 import { getRSSFeeds } from "@/db/getRSSFeeds";
+import "@/app/globals.css";
 
-type FeedPageProps = {
+export type FeedPageProps = {
   id: RSSFeed["id"];
   url: RSSFeed["url"];
   name: RSSFeed["name"];
@@ -14,7 +14,7 @@ type FeedPageProps = {
 
 type FeedPageQuery = { feed: string };
 
-type Feed = {
+export type Feed = {
   title: string;
   description: string;
   lastBuildDate: string;
