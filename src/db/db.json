@@ -1,0 +1,9 @@
+{
+  "feeds": [
+    {
+      "id": 1,
+      "url": "https://nullprogram.com/feed/",
+      "name": "nullprogram"
+    }
+  ]
+}
